@@ -1,0 +1,70 @@
+.component-movie-result-row {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  min-height: 32px;
+  height: auto;
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.component-movie-result-row:hover {
+  background-color: rgb(204, 204, 204);
+}
+
+.component-movie-result-row .year {
+  float: left;
+  position: relative;
+  top: 0px;
+  padding-right: 8px;
+}
+
+.component-movie-result-row .title {
+  position: relative;
+  top: 0px;
+}
+
+.component-movie-result-row .info {
+  float: right;
+  position: relative;
+  right: 10px;
+  color: rgb(0, 0, 0);
+  display: none;
+}
+
+.component-movie-result-row:hover .info {
+  display: flex;
+}
+
+.component-movie-result-row .headline-box{
+  margin-bottom: 15px;
+}
+
+.component-movie-result-row .info-box{
+  display: flex;
+  align-content: left;
+}
+
+.component-movie-result-row .image {
+  max-width: 300px;
+  height: auto;
+  float: left;
+}
+
+.component-movie-result-row .description {
+  position: relative;
+}
+
+.result-image {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+
+.result-description {
+  margin-left: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+}

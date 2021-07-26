@@ -1,0 +1,33 @@
+
+
+.component-search-input > div {
+  margin: 0 10px 10px 10px;
+}
+
+.component-search-input input {
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 10px 8px;
+  width: 100%;
+}
+
+.rec-button {
+  width: 40%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px; ;
+  border: 2px solid #bbb;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.rec-button:focus {
+  background-color: rgb(224, 224, 224);
+  border: 2px solid #666; 
+}

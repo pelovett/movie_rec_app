@@ -1,0 +1,50 @@
+.liked-movie-container {
+    border-bottom: 1px solid #ccc;
+    max-width: 100%;
+}
+
+.liked-movie-box {
+    background-color: rgb(224, 224, 224);
+    min-height: 100px;
+    margin: 0 10px 10px 10px;
+    padding: 10px 10px 0px 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.liked-movie-box::-webkit-scrollbar {
+    display: none; /* Chrome, Opera, Safari */
+}
+
+.liked-movie-list {
+    padding: 2px;
+    margin: 0px;
+}
+
+.liked-movie {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 2px;
+    height: fit-content;
+    white-space: nowrap;
+    position: relative;
+    display: inline-block;
+}
+
+.Unlike-button {
+    border: 0px;
+    border-radius: 4px;
+    margin-left: 4px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;;
+}
+
